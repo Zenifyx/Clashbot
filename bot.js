@@ -43,7 +43,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/document/d/1hSuEG7oplnx4IX6HGsMOjsWb9TCqC4-F1NLjuBz5PCM/edit");
+    postMessage("http://aureusclans.com/about/aureus-rules/planeta-rules");
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
